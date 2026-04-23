@@ -3,8 +3,9 @@ name = "tarefa18ebac"
 version = "0.1.0"
 description = ""
 authors = [
-    {name = "Guilherme Zampar",email = "guilhermezampar90@gmail.com"}
+    {name = "Guilherme Zampar", email = "guilhermezampar90@gmail.com"}
 ]
+
 requires-python = "^3.12"
 
 dependencies = [
