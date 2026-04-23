@@ -1,4 +1,4 @@
-name: ~Tarefa WorkFlow
+name: Tarefa WorkFlow
 
 on:
   push:
@@ -25,7 +25,7 @@ jobs:
           echo "$HOME/.local/bin" >> $GITHUB_PATH
 
       - name: 📚 Instalar dependências
-        run: poetry install
+        run: poetry install --no-root
 
       - name: 🧪 Rodar testes
         run: poetry run pytest
