@@ -5,12 +5,12 @@ description = ""
 authors = [
     {name = "Guilherme Zampar",email = "guilhermezampar90@gmail.com"}
 ]
-requires-python = ">=3.14"
+requires-python = "^3.12"
+
 dependencies = [
     "fastapi[standard] (>=0.136.0,<0.137.0)",
     "pytest (>=9.0.3,<10.0.0)"
 ]
-
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
